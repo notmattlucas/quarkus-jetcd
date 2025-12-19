@@ -1,12 +1,12 @@
 package io.quarkiverse.jetcd;
 
-import io.etcd.jetcd.launcher.Etcd;
-import io.etcd.jetcd.launcher.EtcdCluster;
-import io.quarkus.test.common.QuarkusTestResourceLifecycleManager;
-
 import java.net.URI;
 import java.util.Map;
 import java.util.stream.Collectors;
+
+import io.etcd.jetcd.launcher.Etcd;
+import io.etcd.jetcd.launcher.EtcdCluster;
+import io.quarkus.test.common.QuarkusTestResourceLifecycleManager;
 
 public class EtcdTestResource implements QuarkusTestResourceLifecycleManager {
 
@@ -21,8 +21,7 @@ public class EtcdTestResource implements QuarkusTestResourceLifecycleManager {
                 .map(URI::toString)
                 .collect(Collectors.joining(","));
         return Map.of(
-            "quarkus.jetcd.endpoints", endpoints
-        );
+                "quarkus.jetcd.endpoints", endpoints);
     }
 
     @Override

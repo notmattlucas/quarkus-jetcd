@@ -1,15 +1,15 @@
 package io.quarkiverse.jetcd.deployment;
 
-import io.etcd.jetcd.KV;
-import io.etcd.jetcd.Watch;
-import io.quarkus.arc.processor.DotNames;
 import jakarta.enterprise.context.ApplicationScoped;
 
 import io.etcd.jetcd.Client;
+import io.etcd.jetcd.KV;
+import io.etcd.jetcd.Watch;
 import io.quarkiverse.jetcd.runtime.JetcdClients;
 import io.quarkiverse.jetcd.runtime.JetcdRecorder;
 import io.quarkus.arc.deployment.AdditionalBeanBuildItem;
 import io.quarkus.arc.deployment.SyntheticBeanBuildItem;
+import io.quarkus.arc.processor.DotNames;
 import io.quarkus.deployment.annotations.BuildProducer;
 import io.quarkus.deployment.annotations.BuildStep;
 import io.quarkus.deployment.annotations.ExecutionTime;
