@@ -35,6 +35,12 @@
             <version>0.8.5</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>dev.failsafe</groupId>
+            <artifactId>failsafe</artifactId>
+            <version>3.3.2</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
