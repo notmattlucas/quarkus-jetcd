@@ -8,6 +8,7 @@ import io.etcd.jetcd.Watch;
 import io.quarkus.arc.Arc;
 import io.quarkus.runtime.annotations.Recorder;
 
+@SuppressWarnings("resource")
 @Recorder
 public class JetcdRecorder {
 
