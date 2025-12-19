@@ -32,7 +32,7 @@
         <dependency>
             <groupId>io.etcd</groupId>
             <artifactId>jetcd-launcher</artifactId>
-            <version>0.8.5</version>
+            <version>0.8.6</version>
             <scope>test</scope>
         </dependency>
         <dependency>
