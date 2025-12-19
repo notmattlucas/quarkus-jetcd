@@ -1,0 +1,5 @@
+name: quarkus-jetcd
+title: Etcd
+version: dev
+nav:
+  - modules/ROOT/nav.adoc

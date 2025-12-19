@@ -1,0 +1,11 @@
+name: Jetcd Client
+metadata:
+  keywords:
+    - etcd
+    - jetcd
+  categories:
+    - platform
+    - microservices
+  status: experimental
+  config:
+    - "quarkus.jetcd."
